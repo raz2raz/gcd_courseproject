@@ -22,11 +22,11 @@ Each grouping, either by subject or by activity, is wholly contained on its own 
 
 ###The Dataset includes the following files:
 * CodeBook.md : This file
-* tidy_data.csv : Tidy Dataset , Comma Delimited, Header Row Included
+* tidy_data.txt : Tidy Dataset , Comma Delimited, Header Row Included
 * run_analysis.R : R Script that will recreate the tidy dataset from the original source data. Commented in detail
 * README.md : Execution instructions for run_analysis.R
 
-###Data Fields within tidy_data.csv
+###Data Fields within tidy_data.txt
 Each record has the following fields/structure:
 
 **GROUPING FIELDS**
@@ -133,7 +133,7 @@ Frequency Domain Signals {or} Time Domain Signals | Body Acceleration {or} Gravi
 81. "tGravityAccMag-std()"    
 
 **TRANSFORMATIONS**
-*As commented in the run_analysis.R script, the following transformations were done in order to produce the tidy_data.csv output*
+*As commented in the run_analysis.R script, the following transformations were done in order to produce the tidy_data.txt output*
 
 1. Data was imported from the following source files from the originating data set:   
  + activity_labels.txt   
@@ -166,7 +166,7 @@ Frequency Domain Signals {or} Time Domain Signals | Body Acceleration {or} Gravi
 + 'fBodyBodyGyroJerkMag-std()' was changed to 'fBodyGyroJerkMag-std()'    
 + 'fBodyBodyGyroMag-mean()' was changed to 'fBodyGyroMag-mean()'   
 + 'fBodyBodyGyroMag-meanFreq()' was changed to 'fBodyGyroMag-meanFreq()'    
-12. m_tidy was written out as a comma separated csv, tidy_data.csv, with no row names in the export directory.
+12. m_tidy was written out as a comma separated csv, tidy_data.txt, with no row names in the export directory.
 
 
 

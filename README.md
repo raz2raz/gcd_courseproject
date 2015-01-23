@@ -6,7 +6,7 @@ Peter Randazzo
 peter@ranbek.net  
 prepared for Course Project, Getting and cleaning Data, January 2015     
 
-Upon execution with the following steps, run_analysis.R will take data sourced from the Human Activity Recognition Using Smartphones Dataset , Version 1.0., import it, transform it as described in CodeBook.md, create a subdirectory ("/tidy") if it doesnt already exist for output, and export the file tidy_data.csv as specified in CodeBook.md in the aforementioned subdirectory.
+Upon execution with the following steps, run_analysis.R will take data sourced from the Human Activity Recognition Using Smartphones Dataset , Version 1.0., import it, transform it as described in CodeBook.md, create a subdirectory ("/tidy") if it doesnt already exist for output, and export the file tidy_data.txt as specified in CodeBook.md in the aforementioned subdirectory.
 
 ###Steps
 1. Ensure the source data is present in the default locations contained by the unpacked zip file. When unpacked the following folders should be present.    

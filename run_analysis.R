@@ -5,7 +5,7 @@ library("data.table")
 library("reshape2")
 fwidth = 16
 tidy_dir= "UCI HAR Dataset/tidy"
-tidy_file= "tidy_data.csv"
+tidy_file= "tidy_data.txt"
 
 ##MAKE WORKING DIRECTORY FOR TIDY DATA EXPORT
 if (!file.exists(tidy_dir))
